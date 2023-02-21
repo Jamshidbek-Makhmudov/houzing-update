@@ -1,0 +1,16 @@
+.greyChoose{
+    background-color: #F5F7FC;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+.resCar{
+    background-color: red;
+}
+@media only screen and(max-width: 1024px){
+    .resCar{
+    display: flex;
+    flex-direction: column;
+    }
+}

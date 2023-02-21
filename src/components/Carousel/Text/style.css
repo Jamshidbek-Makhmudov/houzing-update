@@ -1,0 +1,28 @@
+.Wrapper{
+    display: flex;
+    width: 100%;
+    max-width: 539px;
+    min-width: 0;
+    flex-direction: column;
+    padding-top: 50px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.Wrapper h3{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+text-align: center;
+line-height: 36px;
+}
+.Wrapper p{
+    text-align: center;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+margin: 0;
+}

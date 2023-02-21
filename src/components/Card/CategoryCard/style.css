@@ -1,0 +1,41 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    max-width: 280px;
+    min-width: 161px;
+    margin: 10px;
+    height: 100%;
+    max-height: 350px;
+    min-height: 201px;
+    background: #000;
+}
+.imgc{
+    opacity: 0.6;
+    transition: 0.5s;
+}
+.imgc:hover{
+    opacity: 1;
+}
+.wrapper div{
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.wrapper div p{
+    color: white;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+}
+.iconc{
+    height: 60px;
+}

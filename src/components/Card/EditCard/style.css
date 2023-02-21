@@ -1,0 +1,175 @@
+.imgWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 113px;
+  width: 100%;
+  max-width: 113px;
+  min-width: 91px;
+  min-height: 91px;
+  background-color: #c4c4c4;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+.imgWrapper img {
+  height: 100%;
+}
+.Sallelight {
+  background-color: var(--backgroundPrimary);
+  color: white;
+  border-radius: 3px;
+  padding: 5px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  top: 0;
+  left: 4px;
+}
+.Salle {
+  background-color: var(--colorPrimary);
+  color: white;
+  border-radius: 3px;
+  padding: 5px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  top: 0;
+  left: 370px;
+  /* display: none; */
+}
+.mywrapper {
+    margin: 16px 0;
+  position: relative;
+  display: flex;
+  width: 100%   ;
+  /* max-width: 1180px; */
+  min-width: 370px;
+  height: 113px;
+  /* gap: 260px; */
+  justify-content: space-between;
+}
+.inline {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 200px;
+}
+.name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.txt {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.line {
+  text-decoration-line: line-through;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0;
+}
+.price {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.prices {
+  margin-top: 20px;
+}
+.argInfo {
+  overflow: hidden !important;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 660px;
+  min-width: 0px;
+  overflow: hidden;
+  align-items: center;
+  z-index: 8;
+  position: relative;
+  /* gap: 90px; */
+}
+@media only screen and(max-width: 1024px){
+  .argInfo{
+    display: none;
+  }
+}
+@media only screen and(min-width: 425px){
+  .headwrapper{
+    background: #000;
+    display: none;
+  }
+}
+.argInfo p{
+  /* width: 100%; */
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+margin: 10px;
+white-space: nowrap;
+}
+.edit{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-self: center;
+    justify-content: center;
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    z-index: 9999;
+}
+@media  only screen and(max-width: 1440px) {
+  .edit{
+    position: absolute;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      align-self: center;
+      justify-content: center;
+      left: -100px;
+      top: 0;
+  }
+}
+.edit div{
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+
+    /* height: 35px; */
+}
+.edit div:hover{
+    align-self: center;
+    justify-content: center;
+    background-color: #F6F8F9;
+    padding: 10px;
+    border-radius: 50px;
+    /* height: 35px; */
+}
+.headwrapper{
+    display: flex;
+    max-width: 362px;
+    width: 360px;
+    margin-right: 80px;
+    min-height: 360px;
+    z-index: 10;
+}
